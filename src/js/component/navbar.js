@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light  navbar-expand-lg bg-white mb-3">
+		<nav className="navbar navbar-light w-100 navbar-expand-lg bg-white mb-4 px-5">
 			<Link to="/">
-				<span className="navbar-brand mb-0 h1">
-					<i className="fas fa-fish" /> saleswhale
+				<span className="navbar-brand mb-0 h1 ml-4">
+					<i className="fas fa-fish" /> <b>saleswhale</b>
 				</span>
 			</Link>
 			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -24,10 +24,14 @@ export const Navbar = () => {
 			</div>
 			<div className="ml-auto">
 				<Link to="/demo">
-					<button className="btn btn-white border border-primary mr-1 rounded-lg">Log In</button>
+					<button className="btn btn-white border border-primary mr-1 rounded-lg">
+						<b>Log In</b>
+					</button>
 				</Link>
 				<Link to="/demo">
-					<button className="btn btn-primary rounded-lg">Get a Demo</button>
+					<button className="btn btn-primary rounded-lg mr-4">
+						<b>Get a Demo</b>
+					</button>
 				</Link>
 			</div>
 		</nav>
