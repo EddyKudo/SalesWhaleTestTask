@@ -4,6 +4,13 @@
 body{
     font-family: "Source Sans Pro"
 }
+.officeBody{
+    background-image: url("https://res.cloudinary.com/div5hqtbd/image/upload/v1590167792/Personal_Vlog_YouTube_Thumbnail_jxahq4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-size: cover;
+}
+
 .midLine{
     background: linear-gradient(to right, 
 	                              transparent 0%, 
@@ -13,4 +20,3 @@ body{
 	                              transparent calc(20% + 0.81px), 
 	                              transparent 100%);
 }
-

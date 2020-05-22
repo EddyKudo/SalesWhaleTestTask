@@ -2,15 +2,16 @@ import React from "react";
 import "../../styles/home.scss";
 
 export const Offices = () => (
-	<div
-		className="my-5"
-		style={{
-			backgroundImage:
-				"url(https://res.cloudinary.com/div5hqtbd/image/upload/v1590163814/Personal_Vlog_YouTube_Thumbnail_cquamm.png)",
-			backgroundPosition: "calc(100%) calc(70%)",
-			width: "100%"
-		}}>
-		<div className="text-center mb-5">
+	<div className="my-5 officeBody">
+		{/* <img
+			src="https://res.cloudinary.com/div5hqtbd/image/upload/v1590167792/Personal_Vlog_YouTube_Thumbnail_jxahq4.png"
+			style={{
+				backgroundPosition: "calc(80%) calc(55%)",
+				backgroundRepeat: "no-repeat",
+				width: "100%"
+			}}
+		/> */}
+		<div className="text-center mb-5 ">
 			<h4
 				style={{
 					fontSize: "58px",
@@ -22,7 +23,7 @@ export const Offices = () => (
 			</h4>
 		</div>
 
-		<div className="row mt-3 mx-auto text-center">
+		<div className="row mt-3 mx-auto text-center ">
 			<div className="col-1" />
 			<div className="col-5 mr-2">
 				<div className="card">
