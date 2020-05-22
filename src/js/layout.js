@@ -7,6 +7,7 @@ import { Culture } from "./views/culture";
 import { Timeline } from "./views/timeline";
 import { Offices } from "./views/offices";
 import { Investors } from "./views/investors";
+import { Future } from "./views/future";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
@@ -35,6 +36,7 @@ export const Layout = () => {
 					<Timeline />
 					<Offices />
 					<Investors />
+					<Future />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
