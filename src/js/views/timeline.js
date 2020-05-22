@@ -2,9 +2,9 @@ import React from "react";
 import "../../styles/home.scss";
 
 export const Timeline = () => (
-	<div className="my-5 text-center">
+	<div className="my-5  text-center">
 		<div
-			className=" my-3"
+			className=" my-3 mx-auto"
 			style={{
 				width: "90%"
 			}}>
@@ -26,12 +26,7 @@ export const Timeline = () => (
 				textAlign: "left",
 				fontSize: "26px"
 			}}>
-			<div
-				className="col-1"
-				// style={{
-				// 	borderRight: "1px solid #0688FA"
-				// }}
-			/>
+			<div className="col-1" />
 			<div
 				className="col-1 my-2 "
 				style={{

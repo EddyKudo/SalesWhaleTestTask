@@ -5,6 +5,7 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Culture } from "./views/culture";
 import { Timeline } from "./views/timeline";
+import { Offices } from "./views/offices";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
@@ -31,6 +32,7 @@ export const Layout = () => {
 					</Switch>
 					<Culture />
 					<Timeline />
+					<Offices />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
