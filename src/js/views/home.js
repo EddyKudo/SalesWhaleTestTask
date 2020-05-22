@@ -1,9 +1,8 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 
 export const Home = () => (
-	<div className="mt-5">
+	<div className="my-5">
 		<div className="mb-5 text-center">
 			<div className="col">
 				<img src="https://res.cloudinary.com/div5hqtbd/image/upload/v1590091112/paint_1_aghc0c.png" />
@@ -15,17 +14,17 @@ export const Home = () => (
 				width: "90%",
 				marginTop: "3%"
 			}}>
-			<div
-				className="col-6"
-				style={{
-					fontSize: "58px",
-					alignContent: "left",
-					lineHeight: "62px",
-					lineHeight: "85%"
-				}}>
-				<p>
+			<div className="col-6">
+				<h4
+					style={{
+						fontSize: "58px",
+						alignContent: "left",
+						lineHeight: "62px",
+						color: "#002240",
+						lineHeight: "85%"
+					}}>
 					<b>A future where AI and humans work hand in hand</b>
-				</p>
+				</h4>
 			</div>
 			<div
 				className="col-6"
@@ -56,9 +55,5 @@ export const Home = () => (
 				</p>
 			</div>
 		</div>
-
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
 	</div>
 );
