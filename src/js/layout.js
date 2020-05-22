@@ -4,6 +4,7 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
 import { Culture } from "./views/culture";
+import { Timeline } from "./views/timeline";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
@@ -29,6 +30,7 @@ export const Layout = () => {
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Culture />
+					<Timeline />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>

@@ -5,7 +5,12 @@ export const Home = () => (
 	<div className="my-5">
 		<div className="mb-5 text-center">
 			<div className="col">
-				<img src="https://res.cloudinary.com/div5hqtbd/image/upload/v1590091112/paint_1_aghc0c.png" />
+				<img
+					style={{
+						width: "100%"
+					}}
+					src="https://res.cloudinary.com/div5hqtbd/image/upload/v1590091112/paint_1_aghc0c.png"
+				/>
 			</div>
 		</div>
 		<div

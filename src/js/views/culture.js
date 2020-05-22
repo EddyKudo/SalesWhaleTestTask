@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/home.scss";
 
 export const Culture = () => (
-	<div className="my-5 mx-auto ">
+	<div className="mt-5 mx-auto ">
 		<div className="text-center mt-5 ">
 			<h4
 				style={{
