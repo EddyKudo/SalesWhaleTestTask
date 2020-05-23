@@ -8,7 +8,11 @@ body{
     background-image: url("https://res.cloudinary.com/div5hqtbd/image/upload/v1590167792/Personal_Vlog_YouTube_Thumbnail_jxahq4.png");
     background-repeat: no-repeat;
     background-position: center;
-    // background-size: cover;
+}
+.footerBg{
+    background-image: url("https://res.cloudinary.com/div5hqtbd/image/upload/v1590247791/footer-bg_1_lkjvsx.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .midLine{
@@ -19,4 +23,11 @@ body{
 	                              #0688FA calc(20% + 0.9px), 
 	                              transparent calc(20% + 0.81px), 
 	                              transparent 100%);
+}
+ul{
+    list-style:none;
+}
+li{
+  
+  margin: 10px 0;
 }

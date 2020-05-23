@@ -24,7 +24,13 @@ export const Navbar = () => {
 			</div>
 			<div className="ml-auto">
 				<Link to="/demo">
-					<button className="btn btn-white border border-primary mr-1 rounded-lg">
+					<button
+						className="btn btn-white border border-primary mr-1 rounded-lg"
+						style={{
+							fontSize: "18px",
+							color: "#0688FA",
+							lineHeight: "23px"
+						}}>
 						<b>Log In</b>
 					</button>
 				</Link>

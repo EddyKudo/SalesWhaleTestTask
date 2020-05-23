@@ -11,7 +11,6 @@ export const Timeline = () => (
 			<h4
 				style={{
 					fontSize: "58px",
-					lineHeight: "62px",
 					color: "#002240",
 					lineHeight: "85%"
 				}}>
