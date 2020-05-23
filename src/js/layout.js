@@ -8,7 +8,7 @@ import { Timeline } from "./views/timeline";
 import { Offices } from "./views/offices";
 import { Investors } from "./views/investors";
 import { Future } from "./views/future";
-import { Demo } from "./views/demo";
+
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
@@ -28,7 +28,6 @@ export const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/demo" component={Demo} />
 						<Route path="/single/:theid" component={Single} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>

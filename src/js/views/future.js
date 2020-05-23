@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/home.scss";
 
 export const Future = () => (
-	<div className="my-5 invest ">
+	<div className="my-5">
 		<div
 			className="jumbotron jumbotron-fluid mx-auto rounded"
 			style={{

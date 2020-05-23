@@ -5,13 +5,13 @@ import "../../styles/footer.scss";
 export const Footer = () => (
 	<footer className="footer mx-auto py-3 text-center ">
 		<div className="row">
-			<Link to="/">
-				<div className="navbar-brand mb-0 h1 text-right pr-5 mx-3">
+			<div className="navbar-brand mb-0 h1 text-right pr-5 mx-3">
+				<Link to="/">
 					<h4>
 						<i className="fas fa-fish" /> <b>saleswhale</b>
 					</h4>
-				</div>
-			</Link>
+				</Link>
+			</div>
 			<div className="col-md-4 footer-nav animated fadeInUp">
 				<div className="row">
 					<div className="col-md-6 text-left">
@@ -105,7 +105,7 @@ export const Footer = () => (
 				<p>155B Telok Ayer Street Singapore, 068611</p>
 			</div>
 		</div>
-		<div className="container-fluid py-5 mt-4 footerBg ">
+		<div className="container-fluid py-5 mt-4  footerBg">
 			<div
 				className="float-right mr-5"
 				style={{

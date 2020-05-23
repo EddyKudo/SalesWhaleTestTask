@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/home.scss";
 
 export const Offices = () => (
-	<div className="my-5 officeBody">
+	<div className="mt-5 pb-5 officeBody">
 		<div className="text-center mb-5 ">
 			<h4
 				style={{
