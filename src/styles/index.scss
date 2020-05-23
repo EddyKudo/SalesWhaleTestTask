@@ -20,14 +20,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .midLine{
     background: linear-gradient(to right, 
 	                              transparent 0%, 
-	                              transparent calc(20% - 0.81px), 
-	                              #0688FA calc(20% - 0.9px), 
-	                              #0688FA calc(20% + 0.9px), 
-	                              transparent calc(20% + 0.81px), 
+	                              transparent calc(40% - 0.81px), 
+	                              #0688FA calc(40% - 0.9px), 
+	                              #0688FA calc(40% + 0.9px), 
+	                              transparent calc(40% + 0.81px), 
 	                              transparent 100%);
 }
 ul{

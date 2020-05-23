@@ -8,7 +8,7 @@ export const Footer = () => (
 			<div className="navbar-brand mb-0 h1 text-right pr-5 mx-3">
 				<Link to="/">
 					<h4>
-						<i className="fas fa-fish" /> <b>saleswhale</b>
+						<i className="fas fa-fish" style={{ color: "#1C96F8" }} /> <b>saleswhale</b>
 					</h4>
 				</Link>
 			</div>

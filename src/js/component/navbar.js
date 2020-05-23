@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light w-100 navbar-expand-lg bg-white mb-4 px-5">
+		<nav className="navbar navbar-light w-100 navbar-expand-lg bg-white mb-4 px-5 fixed-top">
 			<Link to="/">
 				<span className="navbar-brand mb-0 h1 ml-4">
-					<i className="fas fa-fish" /> <b>saleswhale</b>
+					<i className="fas fa-fish" style={{ color: "#1C96F8" }} /> <b>saleswhale</b>
 				</span>
 			</Link>
 			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -23,22 +23,21 @@ export const Navbar = () => {
 				</div>
 			</div>
 			<div className="ml-auto">
-				<Link to="/demo">
-					<button
-						className="btn btn-white border border-primary mr-1 rounded-lg"
-						style={{
-							fontSize: "18px",
-							color: "#0688FA",
-							lineHeight: "23px"
-						}}>
-						<b>Log In</b>
-					</button>
-				</Link>
-				<Link to="/demo">
-					<button className="btn btn-primary rounded-lg mr-4">
-						<b>Get a Demo</b>
-					</button>
-				</Link>
+				<button
+					className="btn btn-white border border-primary mr-1 rounded-lg"
+					data-toggle="modal"
+					data-target="#staticBackdrop"
+					style={{
+						fontSize: "18px",
+						color: "#0688FA",
+						lineHeight: "23px"
+					}}>
+					<b>Log In</b>
+				</button>
+
+				<button className="btn btn-primary rounded-lg mr-4 ">
+					<b>Get a Demo</b>
+				</button>
 			</div>
 		</nav>
 	);
