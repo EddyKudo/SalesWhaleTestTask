@@ -86,7 +86,7 @@ export const Navbar = () => {
 					</Link>
 				</Modal.Body>
 				<Modal.Footer>
-					<Link to="/" onClick={handleClose}>
+					<Link to="/signup" onClick={handleClose}>
 						Don
 						{"'"}t have an account? Sign Up now!
 					</Link>

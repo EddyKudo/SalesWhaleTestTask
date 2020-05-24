@@ -9,11 +9,11 @@ import { Offices } from "./views/offices";
 import { Investors } from "./views/investors";
 import { Future } from "./views/future";
 
-import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { Signup } from "./component/signup";
 
 //create your first component
 export const Layout = () => {
@@ -28,7 +28,7 @@ export const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/single/:theid" component={Single} />
+						<Route path="/signup" component={Signup} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Culture />

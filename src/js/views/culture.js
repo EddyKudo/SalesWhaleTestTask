@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/home.scss";
+import { Link } from "react-router-dom";
 
 export const Culture = () => (
 	<div className="mt-5 mx-auto ">
@@ -135,14 +136,16 @@ export const Culture = () => (
 				}}>
 				If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!
 			</p>
-			<button
-				className="btn btn-primary mt-4"
-				style={{
-					fontSize: "18px",
-					padding: ".5% 3% .5% 3%"
-				}}>
-				<b>Join the team</b>
-			</button>
+			<Link to="/signup">
+				<button
+					className="btn btn-primary mt-4"
+					style={{
+						fontSize: "18px",
+						padding: ".5% 3% .5% 3%"
+					}}>
+					<b>Join the team</b>
+				</button>
+			</Link>
 		</div>
 	</div>
 );
