@@ -19,7 +19,7 @@ export const Home = () => (
 				width: "90%",
 				marginTop: "3%"
 			}}>
-			<div className="col-6">
+			<div className="col-xl-6 col-md-6 col-xs-12 ">
 				<h4
 					style={{
 						fontSize: "58px",
@@ -32,7 +32,7 @@ export const Home = () => (
 				</h4>
 			</div>
 			<div
-				className="col-6"
+				className="col-xl-6 col-md-6 col-xs-12"
 				style={{
 					fontSize: "18px",
 					alignContent: "left",

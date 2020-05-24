@@ -31,7 +31,7 @@ export const Culture = () => (
 				width: "90%",
 				marginTop: "3%"
 			}}>
-			<div className="col-4">
+			<div className="col-xl-4 col-md-4 col-xs-12">
 				<img
 					src="https://i.pinimg.com/236x/34/72/01/3472011113c26a9122364a27ef3d25b4.jpg"
 					className="card-img-top ml-3 rounded-circle"
@@ -62,7 +62,7 @@ export const Culture = () => (
 					</p>
 				</div>
 			</div>
-			<div className="col-4">
+			<div className="col-xl-4 col-md-4 col-xs-12">
 				<img
 					src="https://i.pinimg.com/236x/34/72/01/3472011113c26a9122364a27ef3d25b4.jpg"
 					className="card-img-top ml-3 rounded-circle"
@@ -93,7 +93,7 @@ export const Culture = () => (
 					</p>
 				</div>
 			</div>
-			<div className="col-4">
+			<div className="col-xl-4 col-md-4 col-xs-12">
 				<img
 					src="https://i.pinimg.com/236x/34/72/01/3472011113c26a9122364a27ef3d25b4.jpg"
 					className="card-img-top ml-3 rounded-circle"

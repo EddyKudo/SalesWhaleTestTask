@@ -74,12 +74,15 @@ export const Navbar = () => {
 								<Form.Control type="password" placeholder="Password" />
 							</Col>
 						</Form.Group>
-						<Form.Group id="formGridCheckbox" className="my-3 px-3">
+						<Button variant="primary" className="px-5 mr-4 float-right" onClick={handleClose}>
+							<b>Login</b>
+						</Button>
+						<Form.Group id="formGridCheckbox" className="mt-5 mb-3 px-3">
 							<Form.Check type="checkbox" label="Remember Me" />
 						</Form.Group>
 					</Form>
 					<Link to="/" onClick={handleClose}>
-						<div className="text-right px-3">Forgot Password?</div>
+						<div className="text-left mt-5 px-3">Forgot Password?</div>
 					</Link>
 				</Modal.Body>
 				<Modal.Footer>
@@ -87,9 +90,6 @@ export const Navbar = () => {
 						Don
 						{"'"}t have an account? Sign Up now!
 					</Link>
-					<Button variant="primary" className="px-5 mr-4" onClick={handleClose}>
-						<b>Login</b>
-					</Button>
 				</Modal.Footer>
 			</Modal>
 		</nav>

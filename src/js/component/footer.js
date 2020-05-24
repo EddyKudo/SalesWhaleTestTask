@@ -5,7 +5,7 @@ import "../../styles/footer.scss";
 export const Footer = () => (
 	<footer className="footer mx-auto py-3 text-center ">
 		<div className="row">
-			<div className="navbar-brand mb-0 h1 text-right pr-5 mx-3">
+			<div className="navbar-brand col-2 mb-0 h1 text-right pr-5 mx-3">
 				<Link to="/">
 					<h4>
 						<i className="fas fa-fish" style={{ color: "#1C96F8" }} /> <b>saleswhale</b>
