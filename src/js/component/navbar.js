@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
+import InputGroup from "react-bootstrap/InputGroup";
+import Form from "react-bootstrap/Form";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import FormControl from "react-bootstrap/FormControl";
 
 export const Navbar = () => {
+	const [show, setShow] = useState(false);
+
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
 	return (
 		<nav className="navbar navbar-light w-100 navbar-expand-lg bg-white mb-4 px-5 fixed-top">
 			<Link to="/">
@@ -25,8 +36,7 @@ export const Navbar = () => {
 			<div className="ml-auto">
 				<button
 					className="btn btn-white border border-primary mr-1 rounded-lg"
-					data-toggle="modal"
-					data-target="#staticBackdrop"
+					onClick={handleShow}
 					style={{
 						fontSize: "18px",
 						color: "#0688FA",
@@ -39,6 +49,49 @@ export const Navbar = () => {
 					<b>Get a Demo</b>
 				</button>
 			</div>
+
+			<Modal show={show} onHide={handleClose}>
+				<Modal.Header closeButton>
+					<Modal.Title className="mx-auto">
+						Login to Account <i className="fas fa-fingerprint" />
+					</Modal.Title>
+				</Modal.Header>
+				<Modal.Body className="pb-0">
+					<Form>
+						<Form.Group as={Row} className="my-3 px-3">
+							<Form.Label column sm="2">
+								Username
+							</Form.Label>
+							<Col sm="10">
+								<FormControl placeholder="Username" type="username" aria-label="username" />
+							</Col>
+						</Form.Group>
+						<Form.Group as={Row} controlId="formPlaintextPassword" className="my-3 px-3">
+							<Form.Label column sm="2">
+								Password
+							</Form.Label>
+							<Col sm="10">
+								<Form.Control type="password" placeholder="Password" />
+							</Col>
+						</Form.Group>
+						<Form.Group id="formGridCheckbox" className="my-3 px-3">
+							<Form.Check type="checkbox" label="Remember Me" />
+						</Form.Group>
+					</Form>
+					<Link to="/" onClick={handleClose}>
+						<div className="text-right px-3">Forgot Password?</div>
+					</Link>
+				</Modal.Body>
+				<Modal.Footer>
+					<Link to="/" onClick={handleClose}>
+						Don
+						{"'"}t have an account? Sign Up now!
+					</Link>
+					<Button variant="primary" className="px-5 mr-4" onClick={handleClose}>
+						<b>Login</b>
+					</Button>
+				</Modal.Footer>
+			</Modal>
 		</nav>
 	);
 };
