@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/home.scss";
 
 export const Investors = () => (
-	<div className="py-5 invest ">
+	<div className="py-5 invest">
 		<div className="text-center">
 			<h4
 				style={{
