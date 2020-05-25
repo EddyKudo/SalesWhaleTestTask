@@ -42,7 +42,7 @@ export const Footer = () => (
 						</ul>
 					</div>
 					<div className="col-xl-6 col-md-6 col-6 text-left">
-						<ul className="list pl-0">
+						<ul className="list pl-1">
 							<li>
 								<a href="#">
 									<b>Product</b>
@@ -65,7 +65,7 @@ export const Footer = () => (
 				</div>
 			</div>
 			<div className="col-md-2 col-6 text-left">
-				<ul className="pl-0">
+				<ul className="pl-1">
 					<li>
 						<a href="#">
 							<b>Company</b>
