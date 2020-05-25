@@ -7,8 +7,7 @@ export const Home = () => (
 			<div className="col">
 				<img
 					style={{
-						width: "auto",
-						maxWidth: "100%"
+						width: "100%"
 					}}
 					src="https://res.cloudinary.com/div5hqtbd/image/upload/v1590091112/paint_1_aghc0c.png"
 				/>
