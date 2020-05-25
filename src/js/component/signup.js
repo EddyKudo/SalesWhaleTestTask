@@ -76,6 +76,9 @@ export const Signup = () => {
 					</article>
 				</div>
 			</div>
+			<div className="container fluid">
+				<p />
+			</div>
 		</div>
 	);
 };
