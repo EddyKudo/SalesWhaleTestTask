@@ -28,7 +28,7 @@ export const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/signup" component={Signup} />
+						<Route path="/signup" component={Signup} className="mb-5" />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Culture />
