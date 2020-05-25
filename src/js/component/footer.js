@@ -14,7 +14,7 @@ export const Footer = () => (
 			</div>
 			<div className="col-md-4 footer-nav animated fadeInUp">
 				<div className="row">
-					<div className="col-xl-6 col-md-6 col-xs-5 text-left">
+					<div className="col-xl-6 col-md-6 col-6 text-left">
 						<ul className="pages pl-1 ">
 							<li>
 								<a href="#">
@@ -41,8 +41,8 @@ export const Footer = () => (
 							</li>
 						</ul>
 					</div>
-					<div className="col-xl-6 col-md-6 col-xs-5 text-left">
-						<ul className="list">
+					<div className="col-xl-6 col-md-6 col-6 text-left">
+						<ul className="list pl-0">
 							<li>
 								<a href="#">
 									<b>Product</b>
@@ -64,8 +64,8 @@ export const Footer = () => (
 					</div>
 				</div>
 			</div>
-			<div className="col-md-2 col-xs-5 text-left">
-				<ul>
+			<div className="col-md-2 col-6 text-left">
+				<ul className="pl-0">
 					<li>
 						<a href="#">
 							<b>Company</b>
@@ -88,20 +88,20 @@ export const Footer = () => (
 					</li>
 				</ul>
 			</div>
-			<div className="col-md-3 col-xs-5 text-left">
-				<h5>
+			<div className="col-md-3 col-6 text-left">
+				<p>
 					<b>Contact</b>
-				</h5>
+				</p>
 				<p>hello@saleswhale.com</p>
 
-				<h5>
+				<p>
 					<b>US Office</b>
-				</h5>
+				</p>
 				<p>1701 Rhode Island Ave NW Washington, DC 20036</p>
 
-				<h5>
+				<p>
 					<b>Singapore Office</b>
-				</h5>
+				</p>
 				<p>155B Telok Ayer Street Singapore, 068611</p>
 			</div>
 		</div>
