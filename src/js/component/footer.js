@@ -14,7 +14,7 @@ export const Footer = () => (
 			</div>
 			<div className="col-md-4 footer-nav animated fadeInUp">
 				<div className="row">
-					<div className="col-md-6 col-xs-6 text-left">
+					<div className="col-xl-6 col-md-6 col-xs-5 text-left">
 						<ul className="pages pl-1 ">
 							<li>
 								<a href="#">
@@ -41,7 +41,7 @@ export const Footer = () => (
 							</li>
 						</ul>
 					</div>
-					<div className="col-md-6 col-xs-6 text-left">
+					<div className="col-xl-6 col-md-6 col-xs-5 text-left">
 						<ul className="list">
 							<li>
 								<a href="#">
@@ -64,7 +64,7 @@ export const Footer = () => (
 					</div>
 				</div>
 			</div>
-			<div className="col-md-2 col-xs-6 text-left">
+			<div className="col-md-2 col-xs-5 text-left">
 				<ul>
 					<li>
 						<a href="#">
@@ -88,7 +88,7 @@ export const Footer = () => (
 					</li>
 				</ul>
 			</div>
-			<div className="col-md-3 col-xs-6 text-left">
+			<div className="col-md-3 col-xs-5 text-left">
 				<h5>
 					<b>Contact</b>
 				</h5>
