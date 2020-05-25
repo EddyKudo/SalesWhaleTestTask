@@ -33,7 +33,7 @@ export const Navbar = () => {
 					</a>
 				</div>
 			</div>
-			<div className="ml-auto">
+			<div className="ml-auto d-none d-md-none d-lg-block">
 				<button
 					className="btn btn-white border border-primary mr-1 rounded-lg"
 					onClick={handleShow}

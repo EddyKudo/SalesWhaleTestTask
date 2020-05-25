@@ -27,7 +27,7 @@ export const Timeline = () => (
 			}}>
 			<div className="col-1" />
 			<div
-				className="col-1 my-2"
+				className="col-1 my-2 d-none d-md-none d-xl-block"
 				style={{
 					color: "#0688FA"
 				}}>
@@ -41,7 +41,7 @@ export const Timeline = () => (
 			</div>
 
 			<div
-				className="col-1 midLine"
+				className="col-1 midLine d-none d-md-none d-xl-block"
 				style={{
 					zIndex: "1"
 				}}>

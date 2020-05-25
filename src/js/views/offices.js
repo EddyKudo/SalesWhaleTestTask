@@ -15,7 +15,7 @@ export const Offices = () => (
 		</div>
 		<div className="row mt-3 mx-auto text-center ">
 			<div className="col-1" />
-			<div className="col-xl-5 col-md-5 col-xs-12 mr-2">
+			<div className="col-xl-5 col-md-5 col-xs-12 my-1 mx-2">
 				<div className="card" style={{ boxShadow: "0px 10px 30px -5px #3e4244" }}>
 					<div className="p-4">
 						<img
@@ -35,7 +35,7 @@ export const Offices = () => (
 					</div>
 				</div>
 			</div>
-			<div className="col-xl-5 col-md-5 col-xs-12  ml-2">
+			<div className="col-xl-5 col-md-5 col-xs-12 my-1  mx-2">
 				<div className="card" style={{ boxShadow: "0px 10px 30px -5px #3e4244" }}>
 					<div className="p-4">
 						<img

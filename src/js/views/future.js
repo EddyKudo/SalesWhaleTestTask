@@ -21,10 +21,10 @@ export const Future = () => (
 				</h3>
 			</div>
 			<div className="container  text-center my-4">
-				<button type="button" className="btn btn-light mr-3 px-5 py-1">
+				<button type="button" className="btn btn-light mx-3 my-1 px-5 py-1">
 					Get a Demo
 				</button>
-				<button type="button" className="btn btn-primary ml-3 px-5 py-1 border border-white">
+				<button type="button" className="btn btn-primary mx-3 px-5 py-1 my-1 border border-white">
 					Read use cases
 				</button>
 			</div>
