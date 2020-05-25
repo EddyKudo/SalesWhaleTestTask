@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export const Signup = () => {
 	return (
-		<div className="row justify-content-center mt-5">
-			<div className="col-md-6 mt-3">
+		<div className="row justify-content-center my-5">
+			<div className="col-md-6 my-3">
 				<div className="card">
 					<header className="card-header">
 						<h4 className="card-title mt-2">Sign up</h4>
